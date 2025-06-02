@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+html, body, [data-testid="stAppViewContainer"], [data-testid="stAppViewBlockContainer"], [class*="css"] {
+    font-family: 'Fira Code', monospace;
+    background-color: #121212;
+    color: #e0e0e0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+[data-testid="stHeader"], [data-testid="stToolbar"] {
+    background: none;
+}
+
+.typing-box {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(255,255,255,0.05);
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #00e6e6;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.result-box {
+    background-color: #263238;
+    border-left: 6px solid #00bcd4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.stTextArea textarea {
+    font-family: 'Fira Code', monospace;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 16px;
+}
